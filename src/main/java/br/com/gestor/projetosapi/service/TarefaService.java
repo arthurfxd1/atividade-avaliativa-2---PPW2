@@ -1,14 +1,14 @@
 package br.com.gestor.projetosapi.service;
 
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import br.com.gestor.projetosapi.exception.ResourceNotFoundException;
 import br.com.gestor.projetosapi.model.Projeto;
 import br.com.gestor.projetosapi.model.Tarefa;
 import br.com.gestor.projetosapi.repository.ProjetoRepository;
 import br.com.gestor.projetosapi.repository.TarefaRepository;
-import org.springframework.stereotype.Service;
-
-import java.time.LocalDate;
-import java.util.List;
 
 @Service
 public class TarefaService {
